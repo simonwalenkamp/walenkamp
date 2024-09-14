@@ -1,6 +1,7 @@
 <script setup lang="ts">
+import Home from "./components/Home.vue";
 </script>
 
 <template>
-  <h1 class="bg-fuchsia-600">Simon Walenkamp</h1>
+  <Home/>
 </template>
