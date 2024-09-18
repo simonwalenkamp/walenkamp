@@ -2,5 +2,7 @@
 </script>
 
 <template>
-  <RouterView/>
+  <div class="lg:ps-40 lg:pe-40">
+    <RouterView/>
+  </div>
 </template>
