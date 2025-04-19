@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="lg:ps-40 lg:pe-40">
-    <RouterView/>
+  <div class="w-full flex-grow container mx-auto lg:ps-40 lg:pe-40">
+    <RouterView />
   </div>
 </template>
