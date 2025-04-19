@@ -1,6 +1,5 @@
 <script setup lang="ts">defineEmits()
-import Socials from '@/components/Socials.vue'
-//import Socials from "../components/Socials.vue"
+import Socials from "../components/Socials.vue"
 </script>
 <template>
     <div class="flex justify-center items-center">
