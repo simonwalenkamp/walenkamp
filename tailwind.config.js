@@ -10,7 +10,7 @@ export default {
       keyframes: {
         typing: {
           from: {
-            width: '0'
+            width: '10%'
           },
           to: {
             width: '100%'
