@@ -4,14 +4,15 @@
 <template>
   <div class="grid gap-10 lg:grid-cols-3">
     <div class="lg:col-span-2">
-      <p class="break-words text-justify text-lg">
-        An experienced software developer with, six soon seven, years of experience in building solutions for multiple
-        industries. Beyond having worked with a wide variety of tech stacks, one of my strengths is that I enjoy tasks
-        that
-        the typical programmer does not, such as planning and collaborating with other departments. I am a social person
-        that values small talk with colleagues and bonding with people across departments. This also means that I prefer
-        to
-        work at the office rather than from home
+      <p class="break-words text-justify text-lg lg:text-2xl">
+        I'm a passionate <span class="text-indigo-500">Software Developer</span> with, six soon seven, years of
+        experience
+        in <span class="text-yellow-500">Building Solutions</span> for multiple
+        industries.
+        <br>
+        I love tinkering with the tools i use and always try to <span class="text-indigo-500">Optimize</span> my
+        workflow. I will never be tiered of trying out new techonologies and I'm always looking for something new to
+        learn.
       </p>
     </div>
     <div class="flex justify-center items-center">

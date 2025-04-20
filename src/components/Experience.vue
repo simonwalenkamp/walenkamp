@@ -1,78 +1,116 @@
 <script setup lang="ts">
+import Card from "./Card.vue"
+import Arrow from "./Arrow.vue"
 </script>
 
 <template>
-  <div>
-
-    <!-- Relewise -->
-    <div>
-      <div class="flex flex-col sm:flex-row justify-between sm:items-center">
-        <h3 class="text-xl font-semibold">Relewise</h3>
-        <span class="text-sm text-gray-500">2023/08 - Present</span>
-      </div>
-      <p class="mt-2 text-base text-gray-500">
+  <div class="grid grid-cols-6">
+    <Card class="lg:col-span-4 col-span-6">
+      <template v-slot:title>
+        Relewise
+      </template>
+      <template v-slot:date>
+      </template>
+      <template v-slot:description>
         Deliver product recommendations and a personalized search experience for e-commerce stores.
         Mostly by building SDKs and integrations but also by developing a platform to visualize individual performance
         in a back office tool.
-      </p>
-      <p class="mt-1 text-sm text-gray-500 italic">Stack: C# .NET, Vue.js, MySQL, JavaScript/TypeScript (SDK), Java
-        (SDK)</p>
-    </div>
+      </template>
+      <template v-slot:stack>
+        C# .NET, Vue.js, MySQL, JavaScript/TypeScript (SDK), Java (SDK)
+      </template>
+    </Card>
 
-    <!-- KvalitetsIT -->
-    <div class="mt-8">
-      <div class="flex flex-col sm:flex-row justify-between sm:items-center">
-        <h3 class="text-xl font-semibold">KvalitetsIT</h3>
-        <span class="text-sm text-gray-500">2022/10 - 2023/08</span>
-      </div>
-      <p class="mt-2 text-base text-gray-500">
+    <div class="lg:col-span-2"></div>
+
+    <div class="col-span-3 flex justify-center items-center">
+      <Arrow class="fill-indigo-500 scale-x-[-1]" />
+    </div>
+    <div class="col-span-3"></div>
+
+    <div class="lg:col-span-2"></div>
+    <Card class="lg:col-span-4 col-span-6">
+      <template v-slot:title>
+        KvalitetsIT
+      </template>
+      <template v-slot:date>
+        2022/10 - 2023/08
+      </template>
+      <template v-slot:description>
         DevOps Engineer — Developed, maintained, and hosted internal solutions for the Danish medical sector,
         primarily on a project called “Aftale Portalen”.
-      </p>
-      <p class="mt-1 text-sm text-gray-500 italic">Stack: Kubernetes, Argo, Docker, Java, React.js, MariaDB</p>
+      </template>
+      <template v-slot:stack>
+        Kubernetes, Argo, Docker, Java, React.js, MariaDB
+      </template>
+    </Card>
+
+    <div class="col-span-3"></div>
+    <div class="lg:col-span-3 flex justify-center items-center">
+      <Arrow class="fill-yellow-500" />
     </div>
 
-    <!-- JP/Politikens Hus -->
-    <div class="mt-8">
-      <div class="flex flex-col sm:flex-row justify-between sm:items-center">
-        <h3 class="text-xl font-semibold">JP/Politikens Hus</h3>
-        <span class="text-sm text-gray-500">2019/01 - 2022/10</span>
-      </div>
-      <p class="mt-2 text-base text-gray-500">
-        During my time I was part of two teams.
-      </p>
+    <Card class="lg:col-span-4 col-span-6">
+      <template v-slot:title>
+        JP Medier
+      </template>
+      <template v-slot:date>
+        2019/01 - 2022/10
+      </template>
+      <template v-slot:description>
+        Built and maintained news sites for Watch Medier with a focus on supporting multiple sites and their unique
+        configurations
+        from shared code bases.
+      </template>
+      <template v-slot:stack>
+        Scala, Next.js, PostgreSQL, AWS (ECS), Docker
+      </template>
+    </Card>
 
-      <div class="mt-4 ml-4">
-        <h4 class="font-medium text-gray-500">Watch Medier</h4>
-        <p class="text-gray-500">
-          Built and maintained news sites with a focus on supporting multiple sites and their unique configurations
-          from shared code bases.
-        </p>
-        <p class="mt-1 text-sm text-gray-500 italic">Stack: Scala, Next.js, PostgreSQL, AWS (ECS), Docker</p>
-      </div>
+    <div class="lg:col-span-2"></div>
 
-      <div class="mt-4 ml-4">
-        <h4 class="font-medium text-gray-500">Team KOT</h4>
-        <p class="text-gray-500">
-          Built the foundation for their subscription platform with a focus on the administration API and an internal
-          site used by their customer service.
-        </p>
-        <p class="mt-1 text-sm text-gray-500 italic">Stack: C# .NET, React.js, PostgreSQL, AWS (ECS), Docker</p>
-      </div>
+    <div class="col-span-3 flex justify-center items-center">
+      <Arrow class=" fill-indigo-500 scale-x-[-1]" />
+    </div>
+    <div class="col-span-3"></div>
+
+    <div class="lg:col-span-2"></div>
+    <Card class="lg:col-span-4 col-span-6">
+      <template v-slot:title>
+        JP/Politikens Hus
+      </template>
+      <template v-slot:date>
+        2019/01 - 2022/10
+      </template>
+      <template v-slot:description>
+        Built the foundation for their subscription platform with a focus on the administration API and an internal
+        site used by their customer service.
+      </template>
+      <template v-slot:stack>
+        C# .NET, React.js, PostgreSQL, AWS (ECS), Docker
+      </template>
+    </Card>
+
+
+    <div class="col-span-3"></div>
+    <div class="col-span-3 flex justify-center items-center">
+      <Arrow class="fill-yellow-500" />
     </div>
 
-    <!-- JP Medier -->
-    <div class="mt-8">
-      <div class="flex flex-col sm:flex-row justify-between sm:items-center">
-        <h3 class="text-xl font-semibold">JP Medier</h3>
-        <span class="text-sm text-gray-500">2018/08 - 2018/12</span>
-      </div>
-      <p class="mt-2 text-base text-gray-500">
+    <Card class="lg:col-span-4 col-span-6">
+      <template v-slot:title>
+        JP Medier
+      </template>
+      <template v-slot:date>
+        2018/08 - 2018/12
+      </template>
+      <template v-slot:description>
         Native App Team — Intern. Developed and maintained news apps for Android and iOS.
-      </p>
-      <p class="mt-1 text-sm text-gray-500 italic">
-        Stack: Swift, Objective-C (iOS), Kotlin, Java (Android)
-      </p>
-    </div>
+      </template>
+      <template v-slot:stack>
+        Swift, Objective-C (iOS), Kotlin, Java (Android) </template>
+    </Card>
+
+    <div class="lg:col-span-2"></div>
   </div>
 </template>

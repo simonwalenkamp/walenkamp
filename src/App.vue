@@ -26,7 +26,7 @@ function scrollTo(element: HTMLElement | null) {
 
             </li>
             <li>
-              <a class="relative hover:text-indigo-500 font-bold cursor-pointer after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-indigo-500 after:transition-all hover:after:w-full"
+              <a class="relative hover:text-yellow-500 font-bold cursor-pointer after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-yellow-500 after:transition-all hover:after:w-full"
                 @click="scrollTo(experience)">Experience</a>
             </li>
             <li>
@@ -52,7 +52,7 @@ function scrollTo(element: HTMLElement | null) {
         <section ref="experienceRef" class="border-b py-10">
           <Experience />
         </section>
-        <section ref="socialsRef">
+        <section ref="socialsRef" class="pt-10">
           <Socials />
         </section>
       </div>
