@@ -21,15 +21,16 @@ function scrollTo(element: HTMLElement | null) {
         <nav>
           <ul class="flex space-x-4">
             <li>
-              <a class="hover:underline hover:text-indigo-500 font-bold cursor-pointer"
+              <a class="relative hover:text-indigo-500 font-bold cursor-pointer after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-indigo-500 after:transition-all hover:after:w-full"
                 @click="scrollTo(about)">About</a>
+
             </li>
             <li>
-              <a class="hover:underline hover:text-indigo-500 font-bold cursor-pointer"
+              <a class="relative hover:text-indigo-500 font-bold cursor-pointer after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-indigo-500 after:transition-all hover:after:w-full"
                 @click="scrollTo(experience)">Experience</a>
             </li>
             <li>
-              <a class="hover:underline hover:text-indigo-500 font-bold cursor-pointer"
+              <a class="relative hover:text-indigo-500 font-bold cursor-pointer after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-indigo-500 after:transition-all hover:after:w-full"
                 @click="scrollTo(socials)">Contact</a>
             </li>
           </ul>
