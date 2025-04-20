@@ -40,7 +40,7 @@ function scrollTo(element: HTMLElement | null) {
       <div>
         <div class="flex justify-center items-center border-b py-10 pt-0">
           <div>
-            <h1 class='inline-block overflow-hidden whitespace-nowrap animate-typing border-r-8 text-4xl'>
+            <h1 class='inline-block overflow-hidden whitespace-nowrap animate-typing border-r-8 text-xl lg:text-4xl'>
               <span class="text-yellow-500">user@desktop</span>:<span class="text-indigo-500">~</span>$ Simon Walenkamp
             </h1>
           </div>
