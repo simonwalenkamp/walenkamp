@@ -9,5 +9,5 @@
     that values small talk with colleagues and bonding with people across departments. This also means that I prefer to
     work at the office rather than from home
   </p>
-  <img src="../../public/simon.jpg" alt="Simon Walenkamp" class="rounded-full w-1/3 h-1/3 mx-auto mt-4" />
+  <img src="../../simon.jpg" alt="Simon Walenkamp" class="rounded-full w-1/3 h-1/3 mx-auto mt-4" />
 </template>
